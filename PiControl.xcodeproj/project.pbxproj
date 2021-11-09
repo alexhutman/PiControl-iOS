@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB8EC6B273A17FC00D45177 /* PiControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC6A273A17FC00D45177 /* PiControlApp.swift */; };
+		FAB8EC6D273A17FC00D45177 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC6C273A17FC00D45177 /* ContentView.swift */; };
+		FAB8EC6F273A181100D45177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8EC6E273A181100D45177 /* Assets.xcassets */; };
+		FAB8EC72273A181100D45177 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8EC71273A181100D45177 /* Preview Assets.xcassets */; };
+		FAB8EC74273A181100D45177 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC73273A181100D45177 /* Persistence.swift */; };
+		FAB8EC77273A181100D45177 /* PiControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC75273A181100D45177 /* PiControl.xcdatamodeld */; };
+		FAB8EC81273A181200D45177 /* PiControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC80273A181200D45177 /* PiControlTests.swift */; };
+		FAB8EC8B273A181300D45177 /* PiControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC8A273A181300D45177 /* PiControlUITests.swift */; };
+		FAB8EC8D273A181300D45177 /* PiControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC8C273A181300D45177 /* PiControlUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAB8EC7D273A181200D45177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB8EC5F273A17FB00D45177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB8EC66273A17FC00D45177;
+			remoteInfo = PiControl;
+		};
+		FAB8EC87273A181300D45177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB8EC5F273A17FB00D45177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB8EC66273A17FC00D45177;
+			remoteInfo = PiControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAB8EC67273A17FC00D45177 /* PiControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB8EC6A273A17FC00D45177 /* PiControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiControlApp.swift; sourceTree = "<group>"; };
+		FAB8EC6C273A17FC00D45177 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAB8EC6E273A181100D45177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB8EC71273A181100D45177 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAB8EC73273A181100D45177 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FAB8EC76273A181100D45177 /* PiControl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PiControl.xcdatamodel; sourceTree = "<group>"; };
+		FAB8EC7C273A181200D45177 /* PiControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB8EC80273A181200D45177 /* PiControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiControlTests.swift; sourceTree = "<group>"; };
+		FAB8EC86273A181300D45177 /* PiControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB8EC8A273A181300D45177 /* PiControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiControlUITests.swift; sourceTree = "<group>"; };
+		FAB8EC8C273A181300D45177 /* PiControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB8EC64273A17FC00D45177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB8EC79273A181200D45177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB8EC83273A181300D45177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB8EC5E273A17FB00D45177 = {
+			isa = PBXGroup;
+			children = (
+				FAB8EC69273A17FC00D45177 /* PiControl */,
+				FAB8EC7F273A181200D45177 /* PiControlTests */,
+				FAB8EC89273A181300D45177 /* PiControlUITests */,
+				FAB8EC68273A17FC00D45177 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB8EC68273A17FC00D45177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8EC67273A17FC00D45177 /* PiControl.app */,
+				FAB8EC7C273A181200D45177 /* PiControlTests.xctest */,
+				FAB8EC86273A181300D45177 /* PiControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB8EC69273A17FC00D45177 /* PiControl */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8EC6A273A17FC00D45177 /* PiControlApp.swift */,
+				FAB8EC6C273A17FC00D45177 /* ContentView.swift */,
+				FAB8EC6E273A181100D45177 /* Assets.xcassets */,
+				FAB8EC73273A181100D45177 /* Persistence.swift */,
+				FAB8EC75273A181100D45177 /* PiControl.xcdatamodeld */,
+				FAB8EC70273A181100D45177 /* Preview Content */,
+			);
+			path = PiControl;
+			sourceTree = "<group>";
+		};
+		FAB8EC70273A181100D45177 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8EC71273A181100D45177 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAB8EC7F273A181200D45177 /* PiControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8EC80273A181200D45177 /* PiControlTests.swift */,
+			);
+			path = PiControlTests;
+			sourceTree = "<group>";
+		};
+		FAB8EC89273A181300D45177 /* PiControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8EC8A273A181300D45177 /* PiControlUITests.swift */,
+				FAB8EC8C273A181300D45177 /* PiControlUITestsLaunchTests.swift */,
+			);
+			path = PiControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB8EC66273A17FC00D45177 /* PiControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB8EC90273A181300D45177 /* Build configuration list for PBXNativeTarget "PiControl" */;
+			buildPhases = (
+				FAB8EC63273A17FC00D45177 /* Sources */,
+				FAB8EC64273A17FC00D45177 /* Frameworks */,
+				FAB8EC65273A17FC00D45177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiControl;
+			productName = PiControl;
+			productReference = FAB8EC67273A17FC00D45177 /* PiControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAB8EC7B273A181200D45177 /* PiControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB8EC93273A181300D45177 /* Build configuration list for PBXNativeTarget "PiControlTests" */;
+			buildPhases = (
+				FAB8EC78273A181200D45177 /* Sources */,
+				FAB8EC79273A181200D45177 /* Frameworks */,
+				FAB8EC7A273A181200D45177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB8EC7E273A181200D45177 /* PBXTargetDependency */,
+			);
+			name = PiControlTests;
+			productName = PiControlTests;
+			productReference = FAB8EC7C273A181200D45177 /* PiControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAB8EC85273A181300D45177 /* PiControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB8EC96273A181300D45177 /* Build configuration list for PBXNativeTarget "PiControlUITests" */;
+			buildPhases = (
+				FAB8EC82273A181300D45177 /* Sources */,
+				FAB8EC83273A181300D45177 /* Frameworks */,
+				FAB8EC84273A181300D45177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB8EC88273A181300D45177 /* PBXTargetDependency */,
+			);
+			name = PiControlUITests;
+			productName = PiControlUITests;
+			productReference = FAB8EC86273A181300D45177 /* PiControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB8EC5F273A17FB00D45177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FAB8EC66273A17FC00D45177 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FAB8EC7B273A181200D45177 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FAB8EC66273A17FC00D45177;
+					};
+					FAB8EC85273A181300D45177 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FAB8EC66273A17FC00D45177;
+					};
+				};
+			};
+			buildConfigurationList = FAB8EC62273A17FB00D45177 /* Build configuration list for PBXProject "PiControl" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB8EC5E273A17FB00D45177;
+			productRefGroup = FAB8EC68273A17FC00D45177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB8EC66273A17FC00D45177 /* PiControl */,
+				FAB8EC7B273A181200D45177 /* PiControlTests */,
+				FAB8EC85273A181300D45177 /* PiControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB8EC65273A17FC00D45177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB8EC72273A181100D45177 /* Preview Assets.xcassets in Resources */,
+				FAB8EC6F273A181100D45177 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB8EC7A273A181200D45177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB8EC84273A181300D45177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB8EC63273A17FC00D45177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB8EC77273A181100D45177 /* PiControl.xcdatamodeld in Sources */,
+				FAB8EC74273A181100D45177 /* Persistence.swift in Sources */,
+				FAB8EC6D273A17FC00D45177 /* ContentView.swift in Sources */,
+				FAB8EC6B273A17FC00D45177 /* PiControlApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB8EC78273A181200D45177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB8EC81273A181200D45177 /* PiControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB8EC82273A181300D45177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB8EC8B273A181300D45177 /* PiControlUITests.swift in Sources */,
+				FAB8EC8D273A181300D45177 /* PiControlUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAB8EC7E273A181200D45177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAB8EC66273A17FC00D45177 /* PiControl */;
+			targetProxy = FAB8EC7D273A181200D45177 /* PBXContainerItemProxy */;
+		};
+		FAB8EC88273A181300D45177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAB8EC66273A17FC00D45177 /* PiControl */;
+			targetProxy = FAB8EC87273A181300D45177 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAB8EC8E273A181300D45177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAB8EC8F273A181300D45177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB8EC91273A181300D45177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PiControl/Preview Content\"";
+				DEVELOPMENT_TEAM = U7XQV26DST;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexhutman.PiControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAB8EC92273A181300D45177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PiControl/Preview Content\"";
+				DEVELOPMENT_TEAM = U7XQV26DST;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexhutman.PiControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAB8EC94273A181300D45177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7XQV26DST;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexhutman.PiControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiControl.app/PiControl";
+			};
+			name = Debug;
+		};
+		FAB8EC95273A181300D45177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7XQV26DST;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexhutman.PiControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiControl.app/PiControl";
+			};
+			name = Release;
+		};
+		FAB8EC97273A181300D45177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7XQV26DST;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexhutman.PiControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiControl;
+			};
+			name = Debug;
+		};
+		FAB8EC98273A181300D45177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7XQV26DST;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexhutman.PiControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB8EC62273A17FB00D45177 /* Build configuration list for PBXProject "PiControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB8EC8E273A181300D45177 /* Debug */,
+				FAB8EC8F273A181300D45177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB8EC90273A181300D45177 /* Build configuration list for PBXNativeTarget "PiControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB8EC91273A181300D45177 /* Debug */,
+				FAB8EC92273A181300D45177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB8EC93273A181300D45177 /* Build configuration list for PBXNativeTarget "PiControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB8EC94273A181300D45177 /* Debug */,
+				FAB8EC95273A181300D45177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB8EC96273A181300D45177 /* Build configuration list for PBXNativeTarget "PiControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB8EC97273A181300D45177 /* Debug */,
+				FAB8EC98273A181300D45177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAB8EC75273A181100D45177 /* PiControl.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAB8EC76273A181100D45177 /* PiControl.xcdatamodel */,
+			);
+			currentVersion = FAB8EC76273A181100D45177 /* PiControl.xcdatamodel */;
+			path = PiControl.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAB8EC5F273A17FB00D45177 /* Project object */;
+}
