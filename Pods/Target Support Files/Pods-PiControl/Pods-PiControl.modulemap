@@ -1,0 +1,6 @@
+framework module Pods_PiControl {
+  umbrella header "Pods-PiControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

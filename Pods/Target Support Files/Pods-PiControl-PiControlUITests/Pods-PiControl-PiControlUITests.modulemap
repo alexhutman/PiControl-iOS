@@ -1,0 +1,6 @@
+framework module Pods_PiControl_PiControlUITests {
+  umbrella header "Pods-PiControl-PiControlUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
