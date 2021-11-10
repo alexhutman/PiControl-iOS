@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9F7E1B54B0F18C9503D404F /* Pods_PiControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13E048378A411A5AFE56DD9 /* Pods_PiControl.framework */; };
+		DF226A029F4D915C081FBDA8 /* Pods_PiControlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CE3916985B9C9AC309ECFF /* Pods_PiControlTests.framework */; };
+		F551A18EC808EE0EDECC7AD8 /* Pods_PiControl_PiControlUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8FFE02C75E07505E500FE8 /* Pods_PiControl_PiControlUITests.framework */; };
 		FAB8EC6B273A17FC00D45177 /* PiControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC6A273A17FC00D45177 /* PiControlApp.swift */; };
 		FAB8EC6D273A17FC00D45177 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC6C273A17FC00D45177 /* ContentView.swift */; };
 		FAB8EC6F273A181100D45177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8EC6E273A181100D45177 /* Assets.xcassets */; };
@@ -36,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F8FFE02C75E07505E500FE8 /* Pods_PiControl_PiControlUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiControl_PiControlUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CE3916985B9C9AC309ECFF /* Pods_PiControlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiControlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6666DBE8EFC816A6213A145F /* Pods-PiControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiControl.release.xcconfig"; path = "Target Support Files/Pods-PiControl/Pods-PiControl.release.xcconfig"; sourceTree = "<group>"; };
+		69927E91D955CE284D6FEFC2 /* Pods-PiControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiControl.debug.xcconfig"; path = "Target Support Files/Pods-PiControl/Pods-PiControl.debug.xcconfig"; sourceTree = "<group>"; };
+		705AC20ECAC59B87C1404DCF /* Pods-PiControl-PiControlUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiControl-PiControlUITests.release.xcconfig"; path = "Target Support Files/Pods-PiControl-PiControlUITests/Pods-PiControl-PiControlUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88331A067E19B2B913DFF801 /* Pods-PiControlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiControlTests.release.xcconfig"; path = "Target Support Files/Pods-PiControlTests/Pods-PiControlTests.release.xcconfig"; sourceTree = "<group>"; };
+		95F232577B55C36ECFBDC048 /* Pods-PiControl-PiControlUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiControl-PiControlUITests.debug.xcconfig"; path = "Target Support Files/Pods-PiControl-PiControlUITests/Pods-PiControl-PiControlUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B13E048378A411A5AFE56DD9 /* Pods_PiControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63B2AB07A57004C865F1C6F /* Pods-PiControlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiControlTests.debug.xcconfig"; path = "Target Support Files/Pods-PiControlTests/Pods-PiControlTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FAB8EC67273A17FC00D45177 /* PiControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB8EC6A273A17FC00D45177 /* PiControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiControlApp.swift; sourceTree = "<group>"; };
 		FAB8EC6C273A17FC00D45177 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F7E1B54B0F18C9503D404F /* Pods_PiControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF226A029F4D915C081FBDA8 /* Pods_PiControlTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +83,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F551A18EC808EE0EDECC7AD8 /* Pods_PiControl_PiControlUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23A2E44FAA2D9F62B84A8D02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B13E048378A411A5AFE56DD9 /* Pods_PiControl.framework */,
+				0F8FFE02C75E07505E500FE8 /* Pods_PiControl_PiControlUITests.framework */,
+				20CE3916985B9C9AC309ECFF /* Pods_PiControlTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEFC4E8A754941D9E1175132 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69927E91D955CE284D6FEFC2 /* Pods-PiControl.debug.xcconfig */,
+				6666DBE8EFC816A6213A145F /* Pods-PiControl.release.xcconfig */,
+				95F232577B55C36ECFBDC048 /* Pods-PiControl-PiControlUITests.debug.xcconfig */,
+				705AC20ECAC59B87C1404DCF /* Pods-PiControl-PiControlUITests.release.xcconfig */,
+				F63B2AB07A57004C865F1C6F /* Pods-PiControlTests.debug.xcconfig */,
+				88331A067E19B2B913DFF801 /* Pods-PiControlTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FAB8EC5E273A17FB00D45177 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +121,8 @@
 				FAB8EC7F273A181200D45177 /* PiControlTests */,
 				FAB8EC89273A181300D45177 /* PiControlUITests */,
 				FAB8EC68273A17FC00D45177 /* Products */,
+				DEFC4E8A754941D9E1175132 /* Pods */,
+				23A2E44FAA2D9F62B84A8D02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAB8EC90273A181300D45177 /* Build configuration list for PBXNativeTarget "PiControl" */;
 			buildPhases = (
+				160885ECE6444238DEC736B7 /* [CP] Check Pods Manifest.lock */,
 				FAB8EC63273A17FC00D45177 /* Sources */,
 				FAB8EC64273A17FC00D45177 /* Frameworks */,
 				FAB8EC65273A17FC00D45177 /* Resources */,
+				B7FD5D4DBB2C886C086D781F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAB8EC93273A181300D45177 /* Build configuration list for PBXNativeTarget "PiControlTests" */;
 			buildPhases = (
+				558727575813C39622A42FD3 /* [CP] Check Pods Manifest.lock */,
 				FAB8EC78273A181200D45177 /* Sources */,
 				FAB8EC79273A181200D45177 /* Frameworks */,
 				FAB8EC7A273A181200D45177 /* Resources */,
@@ -175,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAB8EC96273A181300D45177 /* Build configuration list for PBXNativeTarget "PiControlUITests" */;
 			buildPhases = (
+				28251623EFBE34E54F85D5BE /* [CP] Check Pods Manifest.lock */,
 				FAB8EC82273A181300D45177 /* Sources */,
 				FAB8EC83273A181300D45177 /* Frameworks */,
 				FAB8EC84273A181300D45177 /* Resources */,
+				8539CD89E04C3E78E6E9D669 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +303,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		160885ECE6444238DEC736B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PiControl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28251623EFBE34E54F85D5BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PiControl-PiControlUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		558727575813C39622A42FD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PiControlTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8539CD89E04C3E78E6E9D669 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PiControl-PiControlUITests/Pods-PiControl-PiControlUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PiControl-PiControlUITests/Pods-PiControl-PiControlUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PiControl-PiControlUITests/Pods-PiControl-PiControlUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7FD5D4DBB2C886C086D781F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PiControl/Pods-PiControl-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PiControl/Pods-PiControl-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PiControl/Pods-PiControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAB8EC63273A17FC00D45177 /* Sources */ = {
@@ -421,6 +570,7 @@
 		};
 		FAB8EC91273A181300D45177 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69927E91D955CE284D6FEFC2 /* Pods-PiControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,6 +600,7 @@
 		};
 		FAB8EC92273A181300D45177 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6666DBE8EFC816A6213A145F /* Pods-PiControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +630,7 @@
 		};
 		FAB8EC94273A181300D45177 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63B2AB07A57004C865F1C6F /* Pods-PiControlTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +656,7 @@
 		};
 		FAB8EC95273A181300D45177 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88331A067E19B2B913DFF801 /* Pods-PiControlTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +682,7 @@
 		};
 		FAB8EC97273A181300D45177 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F232577B55C36ECFBDC048 /* Pods-PiControl-PiControlUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +706,7 @@
 		};
 		FAB8EC98273A181300D45177 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705AC20ECAC59B87C1404DCF /* Pods-PiControl-PiControlUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
