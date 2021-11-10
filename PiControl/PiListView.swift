@@ -11,23 +11,39 @@ import CoreData
 
 struct PiListView: View {
     // To test view
-    var testCells: [PiListItem] = TestPiList.devices
+    @State var testCells: [PiListItem] = TestPiList.devices
     
     var body: some View {
         NavigationView {
-            List(testCells, id: \.id) { device in
-                VStack(alignment: .leading){
-                    Text(device.piName)
-                        .lineLimit(1)
-                        .font(.headline)
-                    Text(device.ipAddr)
-                        .font(.subheadline)
-                    Text("Last connected on: \(piItemDateToString(itemDate: device.lastConnectedDate))")
-                        .font(.subheadline)
+            List {
+                ForEach(testCells, id: \.id) { device in
+                    VStack(alignment: .leading){
+                        Text(device.piName)
+                            .lineLimit(1)
+                            .font(.headline)
+                        Text(device.ipAddr)
+                            .font(.subheadline)
+                        Text("Last connected on: \(piItemDateToString(itemDate: device.lastConnectedDate))")
+                            .font(.subheadline)
+                    }
                 }
+                .onDelete(perform: self.deleteDevice)
             }
             .navigationTitle("Connected Devices")
+            .navigationBarItems(trailing:
+                                    HStack {
+                Button(action: {
+                    // TODO: Actually add device to list
+                    print("New Device Added")
+                }) {
+                    Image(systemName: "plus")
+                }
+            })
         }
+    }
+    
+    private func deleteDevice(at indexSet: IndexSet) {
+        self.testCells.remove(atOffsets: indexSet)
     }
 }
 
