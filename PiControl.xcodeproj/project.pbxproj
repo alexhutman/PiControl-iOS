@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C9F7E1B54B0F18C9503D404F /* Pods_PiControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13E048378A411A5AFE56DD9 /* Pods_PiControl.framework */; };
+		FAAE1060273B721B000C2119 /* PiListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE105F273B721B000C2119 /* PiListItem.swift */; };
 		FAB8EC6B273A17FC00D45177 /* PiControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC6A273A17FC00D45177 /* PiControlApp.swift */; };
 		FAB8EC6D273A17FC00D45177 /* PiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC6C273A17FC00D45177 /* PiListView.swift */; };
 		FAB8EC6F273A181100D45177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8EC6E273A181100D45177 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		6666DBE8EFC816A6213A145F /* Pods-PiControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiControl.release.xcconfig"; path = "Target Support Files/Pods-PiControl/Pods-PiControl.release.xcconfig"; sourceTree = "<group>"; };
 		69927E91D955CE284D6FEFC2 /* Pods-PiControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiControl.debug.xcconfig"; path = "Target Support Files/Pods-PiControl/Pods-PiControl.debug.xcconfig"; sourceTree = "<group>"; };
 		B13E048378A411A5AFE56DD9 /* Pods_PiControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAE105F273B721B000C2119 /* PiListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiListItem.swift; sourceTree = "<group>"; };
 		FAB8EC67273A17FC00D45177 /* PiControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB8EC6A273A17FC00D45177 /* PiControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiControlApp.swift; sourceTree = "<group>"; };
 		FAB8EC6C273A17FC00D45177 /* PiListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiListView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				FAB8EC6A273A17FC00D45177 /* PiControlApp.swift */,
 				FAB8EC6C273A17FC00D45177 /* PiListView.swift */,
+				FAAE105F273B721B000C2119 /* PiListItem.swift */,
 				FAB8EC6E273A181100D45177 /* Assets.xcassets */,
 				FAB8EC73273A181100D45177 /* Persistence.swift */,
 				FAB8EC75273A181100D45177 /* PiControl.xcdatamodeld */,
@@ -213,6 +216,7 @@
 			files = (
 				FAB8EC77273A181100D45177 /* PiControl.xcdatamodeld in Sources */,
 				FAB8EC74273A181100D45177 /* Persistence.swift in Sources */,
+				FAAE1060273B721B000C2119 /* PiListItem.swift in Sources */,
 				FAB8EC6D273A17FC00D45177 /* PiListView.swift in Sources */,
 				FAB8EC6B273A17FC00D45177 /* PiControlApp.swift in Sources */,
 			);
