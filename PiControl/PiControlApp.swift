@@ -13,7 +13,7 @@ struct PiControlApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PiListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
