@@ -8,58 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		C9F7E1B54B0F18C9503D404F /* Pods_PiControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13E048378A411A5AFE56DD9 /* Pods_PiControl.framework */; };
-		DF226A029F4D915C081FBDA8 /* Pods_PiControlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CE3916985B9C9AC309ECFF /* Pods_PiControlTests.framework */; };
-		F551A18EC808EE0EDECC7AD8 /* Pods_PiControl_PiControlUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8FFE02C75E07505E500FE8 /* Pods_PiControl_PiControlUITests.framework */; };
 		FAB8EC6B273A17FC00D45177 /* PiControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC6A273A17FC00D45177 /* PiControlApp.swift */; };
-		FAB8EC6D273A17FC00D45177 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC6C273A17FC00D45177 /* ContentView.swift */; };
+		FAB8EC6D273A17FC00D45177 /* PiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC6C273A17FC00D45177 /* PiListView.swift */; };
 		FAB8EC6F273A181100D45177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8EC6E273A181100D45177 /* Assets.xcassets */; };
 		FAB8EC72273A181100D45177 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8EC71273A181100D45177 /* Preview Assets.xcassets */; };
 		FAB8EC74273A181100D45177 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC73273A181100D45177 /* Persistence.swift */; };
 		FAB8EC77273A181100D45177 /* PiControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC75273A181100D45177 /* PiControl.xcdatamodeld */; };
-		FAB8EC81273A181200D45177 /* PiControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC80273A181200D45177 /* PiControlTests.swift */; };
-		FAB8EC8B273A181300D45177 /* PiControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC8A273A181300D45177 /* PiControlUITests.swift */; };
-		FAB8EC8D273A181300D45177 /* PiControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8EC8C273A181300D45177 /* PiControlUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FAB8EC7D273A181200D45177 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAB8EC5F273A17FB00D45177 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAB8EC66273A17FC00D45177;
-			remoteInfo = PiControl;
-		};
-		FAB8EC87273A181300D45177 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAB8EC5F273A17FB00D45177 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAB8EC66273A17FC00D45177;
-			remoteInfo = PiControl;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0F8FFE02C75E07505E500FE8 /* Pods_PiControl_PiControlUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiControl_PiControlUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20CE3916985B9C9AC309ECFF /* Pods_PiControlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiControlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6666DBE8EFC816A6213A145F /* Pods-PiControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiControl.release.xcconfig"; path = "Target Support Files/Pods-PiControl/Pods-PiControl.release.xcconfig"; sourceTree = "<group>"; };
 		69927E91D955CE284D6FEFC2 /* Pods-PiControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiControl.debug.xcconfig"; path = "Target Support Files/Pods-PiControl/Pods-PiControl.debug.xcconfig"; sourceTree = "<group>"; };
-		705AC20ECAC59B87C1404DCF /* Pods-PiControl-PiControlUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiControl-PiControlUITests.release.xcconfig"; path = "Target Support Files/Pods-PiControl-PiControlUITests/Pods-PiControl-PiControlUITests.release.xcconfig"; sourceTree = "<group>"; };
-		88331A067E19B2B913DFF801 /* Pods-PiControlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiControlTests.release.xcconfig"; path = "Target Support Files/Pods-PiControlTests/Pods-PiControlTests.release.xcconfig"; sourceTree = "<group>"; };
-		95F232577B55C36ECFBDC048 /* Pods-PiControl-PiControlUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiControl-PiControlUITests.debug.xcconfig"; path = "Target Support Files/Pods-PiControl-PiControlUITests/Pods-PiControl-PiControlUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B13E048378A411A5AFE56DD9 /* Pods_PiControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F63B2AB07A57004C865F1C6F /* Pods-PiControlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiControlTests.debug.xcconfig"; path = "Target Support Files/Pods-PiControlTests/Pods-PiControlTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FAB8EC67273A17FC00D45177 /* PiControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB8EC6A273A17FC00D45177 /* PiControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiControlApp.swift; sourceTree = "<group>"; };
-		FAB8EC6C273A17FC00D45177 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAB8EC6C273A17FC00D45177 /* PiListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiListView.swift; sourceTree = "<group>"; };
 		FAB8EC6E273A181100D45177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB8EC71273A181100D45177 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAB8EC73273A181100D45177 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FAB8EC76273A181100D45177 /* PiControl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PiControl.xcdatamodel; sourceTree = "<group>"; };
-		FAB8EC7C273A181200D45177 /* PiControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAB8EC80273A181200D45177 /* PiControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiControlTests.swift; sourceTree = "<group>"; };
-		FAB8EC86273A181300D45177 /* PiControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAB8EC8A273A181300D45177 /* PiControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiControlUITests.swift; sourceTree = "<group>"; };
-		FAB8EC8C273A181300D45177 /* PiControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,22 +38,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAB8EC79273A181200D45177 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF226A029F4D915C081FBDA8 /* Pods_PiControlTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAB8EC83273A181300D45177 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F551A18EC808EE0EDECC7AD8 /* Pods_PiControl_PiControlUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -94,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				B13E048378A411A5AFE56DD9 /* Pods_PiControl.framework */,
-				0F8FFE02C75E07505E500FE8 /* Pods_PiControl_PiControlUITests.framework */,
-				20CE3916985B9C9AC309ECFF /* Pods_PiControlTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -105,12 +54,7 @@
 			children = (
 				69927E91D955CE284D6FEFC2 /* Pods-PiControl.debug.xcconfig */,
 				6666DBE8EFC816A6213A145F /* Pods-PiControl.release.xcconfig */,
-				95F232577B55C36ECFBDC048 /* Pods-PiControl-PiControlUITests.debug.xcconfig */,
-				705AC20ECAC59B87C1404DCF /* Pods-PiControl-PiControlUITests.release.xcconfig */,
-				F63B2AB07A57004C865F1C6F /* Pods-PiControlTests.debug.xcconfig */,
-				88331A067E19B2B913DFF801 /* Pods-PiControlTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -118,8 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				FAB8EC69273A17FC00D45177 /* PiControl */,
-				FAB8EC7F273A181200D45177 /* PiControlTests */,
-				FAB8EC89273A181300D45177 /* PiControlUITests */,
 				FAB8EC68273A17FC00D45177 /* Products */,
 				DEFC4E8A754941D9E1175132 /* Pods */,
 				23A2E44FAA2D9F62B84A8D02 /* Frameworks */,
@@ -130,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				FAB8EC67273A17FC00D45177 /* PiControl.app */,
-				FAB8EC7C273A181200D45177 /* PiControlTests.xctest */,
-				FAB8EC86273A181300D45177 /* PiControlUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				FAB8EC6A273A17FC00D45177 /* PiControlApp.swift */,
-				FAB8EC6C273A17FC00D45177 /* ContentView.swift */,
+				FAB8EC6C273A17FC00D45177 /* PiListView.swift */,
 				FAB8EC6E273A181100D45177 /* Assets.xcassets */,
 				FAB8EC73273A181100D45177 /* Persistence.swift */,
 				FAB8EC75273A181100D45177 /* PiControl.xcdatamodeld */,
@@ -155,23 +95,6 @@
 				FAB8EC71273A181100D45177 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		FAB8EC7F273A181200D45177 /* PiControlTests */ = {
-			isa = PBXGroup;
-			children = (
-				FAB8EC80273A181200D45177 /* PiControlTests.swift */,
-			);
-			path = PiControlTests;
-			sourceTree = "<group>";
-		};
-		FAB8EC89273A181300D45177 /* PiControlUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FAB8EC8A273A181300D45177 /* PiControlUITests.swift */,
-				FAB8EC8C273A181300D45177 /* PiControlUITestsLaunchTests.swift */,
-			);
-			path = PiControlUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,45 +119,6 @@
 			productReference = FAB8EC67273A17FC00D45177 /* PiControl.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FAB8EC7B273A181200D45177 /* PiControlTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAB8EC93273A181300D45177 /* Build configuration list for PBXNativeTarget "PiControlTests" */;
-			buildPhases = (
-				558727575813C39622A42FD3 /* [CP] Check Pods Manifest.lock */,
-				FAB8EC78273A181200D45177 /* Sources */,
-				FAB8EC79273A181200D45177 /* Frameworks */,
-				FAB8EC7A273A181200D45177 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FAB8EC7E273A181200D45177 /* PBXTargetDependency */,
-			);
-			name = PiControlTests;
-			productName = PiControlTests;
-			productReference = FAB8EC7C273A181200D45177 /* PiControlTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		FAB8EC85273A181300D45177 /* PiControlUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAB8EC96273A181300D45177 /* Build configuration list for PBXNativeTarget "PiControlUITests" */;
-			buildPhases = (
-				28251623EFBE34E54F85D5BE /* [CP] Check Pods Manifest.lock */,
-				FAB8EC82273A181300D45177 /* Sources */,
-				FAB8EC83273A181300D45177 /* Frameworks */,
-				FAB8EC84273A181300D45177 /* Resources */,
-				8539CD89E04C3E78E6E9D669 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FAB8EC88273A181300D45177 /* PBXTargetDependency */,
-			);
-			name = PiControlUITests;
-			productName = PiControlUITests;
-			productReference = FAB8EC86273A181300D45177 /* PiControlUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -247,14 +131,6 @@
 				TargetAttributes = {
 					FAB8EC66273A17FC00D45177 = {
 						CreatedOnToolsVersion = 13.1;
-					};
-					FAB8EC7B273A181200D45177 = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = FAB8EC66273A17FC00D45177;
-					};
-					FAB8EC85273A181300D45177 = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = FAB8EC66273A17FC00D45177;
 					};
 				};
 			};
@@ -272,8 +148,6 @@
 			projectRoot = "";
 			targets = (
 				FAB8EC66273A17FC00D45177 /* PiControl */,
-				FAB8EC7B273A181200D45177 /* PiControlTests */,
-				FAB8EC85273A181300D45177 /* PiControlUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,20 +159,6 @@
 			files = (
 				FAB8EC72273A181100D45177 /* Preview Assets.xcassets in Resources */,
 				FAB8EC6F273A181100D45177 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAB8EC7A273A181200D45177 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAB8EC84273A181300D45177 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,67 +187,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		28251623EFBE34E54F85D5BE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PiControl-PiControlUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		558727575813C39622A42FD3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PiControlTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8539CD89E04C3E78E6E9D669 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PiControl-PiControlUITests/Pods-PiControl-PiControlUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PiControl-PiControlUITests/Pods-PiControl-PiControlUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PiControl-PiControlUITests/Pods-PiControl-PiControlUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B7FD5D4DBB2C886C086D781F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -414,42 +213,12 @@
 			files = (
 				FAB8EC77273A181100D45177 /* PiControl.xcdatamodeld in Sources */,
 				FAB8EC74273A181100D45177 /* Persistence.swift in Sources */,
-				FAB8EC6D273A17FC00D45177 /* ContentView.swift in Sources */,
+				FAB8EC6D273A17FC00D45177 /* PiListView.swift in Sources */,
 				FAB8EC6B273A17FC00D45177 /* PiControlApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAB8EC78273A181200D45177 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAB8EC81273A181200D45177 /* PiControlTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAB8EC82273A181300D45177 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAB8EC8B273A181300D45177 /* PiControlUITests.swift in Sources */,
-				FAB8EC8D273A181300D45177 /* PiControlUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FAB8EC7E273A181200D45177 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FAB8EC66273A17FC00D45177 /* PiControl */;
-			targetProxy = FAB8EC7D273A181200D45177 /* PBXContainerItemProxy */;
-		};
-		FAB8EC88273A181300D45177 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FAB8EC66273A17FC00D45177 /* PiControl */;
-			targetProxy = FAB8EC87273A181300D45177 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FAB8EC8E273A181300D45177 /* Debug */ = {
@@ -628,106 +397,6 @@
 			};
 			name = Release;
 		};
-		FAB8EC94273A181300D45177 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F63B2AB07A57004C865F1C6F /* Pods-PiControlTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7XQV26DST;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexhutman.PiControlTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiControl.app/PiControl";
-			};
-			name = Debug;
-		};
-		FAB8EC95273A181300D45177 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88331A067E19B2B913DFF801 /* Pods-PiControlTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7XQV26DST;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexhutman.PiControlTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiControl.app/PiControl";
-			};
-			name = Release;
-		};
-		FAB8EC97273A181300D45177 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95F232577B55C36ECFBDC048 /* Pods-PiControl-PiControlUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7XQV26DST;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexhutman.PiControlUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PiControl;
-			};
-			name = Debug;
-		};
-		FAB8EC98273A181300D45177 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 705AC20ECAC59B87C1404DCF /* Pods-PiControl-PiControlUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7XQV26DST;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexhutman.PiControlUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PiControl;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -745,24 +414,6 @@
 			buildConfigurations = (
 				FAB8EC91273A181300D45177 /* Debug */,
 				FAB8EC92273A181300D45177 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FAB8EC93273A181300D45177 /* Build configuration list for PBXNativeTarget "PiControlTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FAB8EC94273A181300D45177 /* Debug */,
-				FAB8EC95273A181300D45177 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FAB8EC96273A181300D45177 /* Build configuration list for PBXNativeTarget "PiControlUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FAB8EC97273A181300D45177 /* Debug */,
-				FAB8EC98273A181300D45177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
