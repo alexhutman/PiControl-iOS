@@ -11,7 +11,7 @@ struct PiListItem: Identifiable {
     let id = UUID()
     let piName: String
     let ipAddr: String
-    let lastConnectedDate: Date
+    let lastConnectedDate: Date?
 }
 
 struct TestPiList {
@@ -40,14 +40,22 @@ struct TestPiList {
         PiListItem(
             piName: "Vacation Pi",
             ipAddr: "192.168.1.12",
-            /*
             lastConnectedDate: DateComponents(
+                calendar: Calendar.current,
+                timeZone: TimeZone.current,
                 year: 2020,
-                month: 3,
-                day: 17
+                month: 4,
+                day: 17,
+                hour: 15,
+                minute: 02,
+                second: 54
             ).date!
-            */
-            lastConnectedDate: Date()
+        ),
+    
+        PiListItem(
+            piName: "New Pi",
+            ipAddr: "192.168.1.88",
+            lastConnectedDate: nil
         )
     ]
 }

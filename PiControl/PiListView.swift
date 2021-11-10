@@ -22,7 +22,7 @@ struct PiListView: View {
                         .font(.headline)
                     Text(device.ipAddr)
                         .font(.subheadline)
-                    Text("Last connected on: " + itemFormatter.string(from: device.lastConnectedDate))
+                    Text("Last connected on: \(piItemDateToString(itemDate: device.lastConnectedDate))")
                         .font(.subheadline)
                 }
             }
@@ -37,9 +37,16 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-private let itemFormatter: DateFormatter = {
+private let connectionDateFormatter: DateFormatter = {
     let formatter = DateFormatter()
     formatter.dateStyle = .short
     formatter.timeStyle = .medium
     return formatter
 }()
+
+private func piItemDateToString(itemDate: Date?) -> String {
+    if itemDate == nil {
+        return "-"
+    }
+    return connectionDateFormatter.string(from: itemDate!)
+}
