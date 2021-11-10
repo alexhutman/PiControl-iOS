@@ -8,13 +8,4 @@ target 'PiControl' do
   # Pods for PiControl
   pod 'SwiftSocket'
 
-  target 'PiControlTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'PiControlUITests' do
-    # Pods for testing
-  end
-
 end
